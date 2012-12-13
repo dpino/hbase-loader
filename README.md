@@ -20,5 +20,5 @@ $ mvn exec:java -Dexec.mainClass=com.igalia.hbaseloader.HBaseLoader -Dtablename=
 Parameters
 ----------
 
-   * <tablename>. Name of the table where to import the files.
-   * <dir>. Directory containing files to import.
+   * &lt;tablename&gt;: Name of the table where to import the files.
+   * &lt;dir&gt;: Directory containing files to import.
