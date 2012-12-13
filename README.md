@@ -15,7 +15,7 @@ $ mvn clean install
 Run
 ---
 
-$ mvn exec:java -Dexec.mainClass=com.igalia.hbaseloader.HBaseLoader
+$ mvn exec:java -Dexec.mainClass=com.igalia.hbaseloader.HBaseLoader -Dtablename=files -Ddir=dir
 
 Parameters
 ----------
