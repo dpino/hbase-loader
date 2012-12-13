@@ -1,14 +1,11 @@
 Description
 -----------
 
-Loads the content of a list of files into a table of format (table;key;:content)
+Loads the content of a list of files into a table of format:
 
-Create table
-------------
-
-Within a HBase shell session:
-
-$ create table 'files','content'
+   * TableName: 'files'
+   * RowKey: filename
+   * ColumnFamilty: 'content:'
 
 Compile
 -------
