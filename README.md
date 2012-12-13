@@ -3,9 +3,9 @@ Description
 
 Loads the content of a list of files into a table of format:
 
-   * TableName: 'files'
-   * RowKey: filename
-   * ColumnFamilty: 'content:'
+   * *TableName*: 'files'
+   * *RowKey*: filename
+   * *ColumnFamilty*: 'content:'
 
 Compile
 -------
@@ -20,5 +20,5 @@ $ mvn exec:java -Dexec.mainClass=com.igalia.hbaseloader.HBaseLoader -Dtablename=
 Parameters
 ----------
 
-   * &lt;tablename&gt;: Name of the table where to import the files.
-   * &lt;dir&gt;: Directory containing files to import.
+   * *tablename*. Name of the table where to import the files.
+   * *dir*. Directory containing files to import.
